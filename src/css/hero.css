@@ -1,0 +1,108 @@
+/* MOBILE */
+.hero{
+width: 100%;
+max-width: 320px;
+height: 801px;
+background-color: #ebf8ed;
+padding: 64px 16px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-content-left{
+ display: flex;
+gap:20px;
+flex-direction: column;   
+}
+
+.container-hero{display: flex;
+gap:20px;
+flex-direction: column; }
+
+.hero-paragraph{
+ font-family: "Comfortaa", sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0.01em;
+color: #030a06;   
+}
+
+.hero-text{
+ font-family: "Fira Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #030a06;   
+}
+
+.button-hero{display: inline-block;
+text-align: center;
+border: 1px solid #030a06;
+border-radius: 6px;
+transition: background-color 0.2s, box-shadow 0.2s;
+background-color: #030a06;
+padding-block: 12px;
+padding-inline: 24px;
+width: 288px;
+height: 50px;
+color: #fff;
+font-family: "Fira Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;}
+
+.hero-block{
+border: 1px solid #030a06;
+border-radius: 40px;
+width: 288px;
+height: 285px;
+/* тут надо бэкграунд */
+}
+
+.button-hero:hover,
+.button-hero:focus {
+background: #030a06;
+opacity: 0.5;  
+}
+
+.button-hero:active {
+background: #113916;
+opacity: 0.6;
+}
+
+.button-hero:disabled {background: #030a06;
+opacity: 0.2;}
+
+.button-hero:disabled:hover,
+.button-hero:disabled:focus {
+    background-color: #ccc; 
+    box-shadow: none;
+}
+
+/* TABLET */
+/* @media screen and (min-width: 768px){
+.hero{
+    padding: 32px 64px;
+    height: 575px;
+    margin-left: 0;
+    margin-right: 0; 
+    display: flex; 
+    align-items: center;
+}
+
+.container-hero{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap:24px;  
+}
+
+ .hero-content-left {   
+    width: 50%;   
+    display: flex;
+    flex-direction: column;}
+
+    
+
+} */
