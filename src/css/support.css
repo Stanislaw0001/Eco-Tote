@@ -50,7 +50,43 @@
   width: 288px;
   height: 42px;
   background-color: rgba(3, 10, 6, 0.05);
+  outline: none;
+  position: relative;
 }
+
+.support-input:hover::placeholder {
+  color: #030a06;
+}
+
+.support-input:focus::placeholder {
+  color: transparent;
+}
+
+.support-input:focus::after {
+  content: "";
+  position: absolute;
+  animation: blink 1s step-end infinite;
+}
+
+.support-input:not(:placeholder-shown):invalid {
+  border-color: #d64040;
+  color: #d64040;
+}
+
+.support-input:not(:placeholder-shown):invalid::placeholder {
+  color: #d64040;
+}
+
+.error-text {
+  display: none;
+  font-size: 12px;
+  color: #d64040;
+}
+
+.support-input:not(:placeholder-shown):invalid ~ .error-text {
+  display: block;
+}
+
 
 .textarea {
   width: 288px;
@@ -74,15 +110,21 @@
   opacity: 0.5; 
 }
 
-/* .support-form:has(input:valid) .support-btn {
+.support-btn:active {
   background-color: #113916;
+  border-color: #113916;
+  color: #fff;
   opacity: 0.6;
 }
 
-.support-form:has(input:invalid) .support-btn {
+.support-btn:disabled {
   background-color: #030a06;
+  border-color: #030a06;
+  color: #fff;
   opacity: 0.2;
-} */
+  cursor: not-allowed;
+}
+
 
 
 /* --------------- TABLET ---------------- */

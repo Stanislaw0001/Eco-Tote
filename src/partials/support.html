@@ -16,7 +16,9 @@
           maxlength="64"
           required
           placeholder="Іван"
+          pattern="[A-Za-z]{3,}"
         />
+        <p class="error-text">Error text</p>
       </div>
       <div class="support-input-content">
         <label for="email" class="support-text-scnd">Електронна пошта</label>
@@ -28,7 +30,9 @@
           placeholder="hello@ecotote.com"
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           required
+          pattern="[A-Za-z]{3,}"
         />
+        <p class="error-text">Error text</p>
       </div>
       <div class="support-input-content">
         <label for="message" class="support-text-scnd">Повідомлення</label>
