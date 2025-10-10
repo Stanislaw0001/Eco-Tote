@@ -1,0 +1,65 @@
+h1, h2, h3{
+    font-family: "Comfortaa", sans-serif;
+}
+
+p{
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+
+
+.advantages{
+    background-color: #ebf8ed;
+}
+
+.container-advantages{
+
+}
+
+.advantages-subtitle {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #030a06;
+    margin-bottom: 12px;
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 20px;
+}
+
+.advantages-lead {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+    margin-bottom: 48px;
+}
+
+.advantages-item {}
+
+.advantages-item-list {}
+
+.advantages-item-list-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #030a06;
+
+    margin-bottom: 4px;
+}
+
+.advantages-item-list-lead {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
