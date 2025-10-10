@@ -6,15 +6,12 @@
 .gallery-title {
   margin-bottom: 16px;
 
-  font-family: 'Comfortaa', sans-serif;
   /* font-family: var(--second-family); */
   font-weight: 700;
   font-size: 36px;
-  line-height: 120%;
   letter-spacing: 0.01em;
   text-align: center;
   /* color: var(--color-scheme-3-text); */
-  color: #030a06;
 }
 
 .gallery-after-title {
@@ -24,9 +21,8 @@
   /* font-family: var(--font-family); */
   font-weight: 400;
   font-size: 18px;
-  line-height: 160%;
+  line-height: 1.6;
   text-align: center;
-  color: #030a06;
   /* color: var(--color-scheme-3-text); */
 }
 
@@ -36,11 +32,11 @@
   flex-wrap: wrap;
   gap: 16px;
 }
+
 .gallery-item {
   height: auto;
-}
-.gallery-item-img {
   border-radius: 32px;
+  overflow: hidden;
 }
 
 /* -----------TABL----------------- */
@@ -49,9 +45,11 @@
     padding-top: 64px;
     padding-bottom: 64px;
   }
+
   .gallery-title {
     margin-bottom: 24px;
   }
+
   .gallery-list {
     flex-wrap: wrap;
     gap: 20px;
