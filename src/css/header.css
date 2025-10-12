@@ -1,20 +1,4 @@
 /* ==========================================
-   GENERAL STYLES
-   ========================================== */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Fira Sans', sans-serif;
-    background-color: #f5f5f5;
-    padding-top: 72px;
-}
-
-/* ==========================================
    HEADER STYLES
    ========================================== */
 
