@@ -279,10 +279,22 @@
 }
 
 /* ==========================================
-   RESPONSIVE STYLES - TABLET (1158px)
+   RESPONSIVE STYLES - LARGE SCREENS
    ========================================== */
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1150px) {
+    .contact-list {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+    }
+}
+
+/* ==========================================
+   RESPONSIVE STYLES - TABLET (1024px)
+   ========================================== */
+
+@media screen and (max-width: 1024px) {
     .header-container {
         padding: 0 24px;
     }
@@ -292,15 +304,11 @@
     }
     
     .nav-list {
-        gap: 24px;
+        gap: 20px;
     }
     
     .nav-link {
         font-size: 14px;
-    }
-
-    .contact-list {
-        gap: 16px;
     }
 
     .contact {
@@ -309,10 +317,10 @@
 }
 
 /* ==========================================
-   RESPONSIVE STYLES - TABLET (1158px)
+   RESPONSIVE STYLES - TABLET (768px)
    ========================================== */
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 768px) {
     .nav-list,
     .address {
         display: none;
@@ -325,13 +333,17 @@
     .nav {
         gap: 0;
     }
+
+    .header-container {
+        padding: 0 20px;
+    }
 }
 
 /* ==========================================
-   RESPONSIVE STYLES - MOBILE (768px)
+   RESPONSIVE STYLES - MOBILE (320px)
    ========================================== */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .header-container {
         padding: 0 16px;
     }
