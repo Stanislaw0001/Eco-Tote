@@ -107,6 +107,18 @@ p{
      width: calc((100% - 24px) / 2);
  }
 
+ .advantages-item-list-title{
+    margin-bottom: 8px;
+ }
+
+ .advantages-item-list-title-two{
+    margin-bottom: 42px;
+ }
+
+ .advantages-pictr img{
+    margin-bottom: 32px;
+ }
+
  .advantages-pictr img {
      width: 100%;
  }
