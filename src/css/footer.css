@@ -159,6 +159,10 @@
     gap: 24px;
   }
 
+  .footer-top-row {
+    gap: 32px;
+  }
+
   .footer-logo_icon {
     width: 160px;
     height: 60px;
@@ -168,7 +172,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 30px;
   }
 
   .footer-menu_item {
@@ -225,11 +228,6 @@
 
   .footer-nav {
     flex-grow: 1;
-  }
-
-  .footer-menu {
-    justify-content: center;
-    gap: 40px;
   }
 
   .footer-menu_link:hover,
