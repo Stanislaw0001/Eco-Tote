@@ -48,38 +48,36 @@
       
     </form>
     </div>
-    <div class="img-wrapper">
-        <img
-          class="img"
-          src="../img/support/support-mob.webp"
+    <picture class="img-group">
+        <source
+          media="(max-width: 767px)"
           srcset="
             ../img/support/support-mob.webp    1x,
             ../img/support/support-mob-2x.webp 2x
           "
-          sizes="(max-width: 767px) 288px, 428px"
-          alt="Підтримка"
         />
-        <img
-          class="img"
-          src="../img/support/support-tab.webp"
+        <source
+          media="(mix-width: 768px)"
           srcset="
             ../img/support/support-tab.webp    1x,
             ../img/support/support-tab-2x.webp 2x
           "
-          sizes="(max-width: 1439px) 704px, 428px"
-          alt="Підтримка"
         />
-        <img
-          class="img"
-          src="../img/support/support.webp"
+        <source
+          media="(min-width: 1440px)"
           srcset="
             ../img/support/support.webp    1x,
             ../img/support/support-2x.webp 2x
           "
-          sizes="(min-width: 1440px) 644px, 768px"
-          alt="Підтримка"
         />
-    </div>
+        <img
+        class="img-wrapper"
+        src="../img/support/support-mob.webp"
+        alt="Support"
+        width="288px"
+        height="428px"
+        >
+    </picture>
     </div>
   </div>
 </section>
