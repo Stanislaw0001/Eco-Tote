@@ -1,8 +1,5 @@
 /* MOBILE */
 .hero{
-width: 100%;
-margin: 0 auto;
-height: 801px;
  padding: 64px 16px;
  display: flex;
 flex-direction: column;
