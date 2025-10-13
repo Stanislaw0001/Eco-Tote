@@ -59,7 +59,7 @@ border-radius: 40px;
 width: 100%; 
 margin: 0 auto;
 height: 285px;
-background-image: url('../../img/hero/hero-mob.webp');
+background-image: url('/img/hero/hero-mob.webp');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -68,7 +68,7 @@ background-position: center;}
        screen and (min-resolution: 192dpi),
        screen and (min-resolution: 2dppx) {   
     .hero-block {
-        background-image: url('../../img/hero/hero-mob-2x.webp');
+        background-image: url('/img/hero/hero-mob-2x.webp');
     }
 }
 
@@ -135,7 +135,7 @@ border-radius: 40px;
 width: 100%; 
 margin: 0 auto;
 height: 285px;
-background-image: url('../../img/hero/hero-tab.webp');
+background-image: url('/img/hero/hero-tab.webp');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -146,7 +146,7 @@ background-position: center;}
         
         /* Эти стили заменят базовый фон ТОЛЬКО на Retina-планшетах */
         .hero-block {
-            background-image: url('../../img/hero/hero-tab-2x.webp');
+            background-image: url('/img/hero/hero-tab-2x.webp');
         }
     }
 
@@ -185,7 +185,7 @@ border-radius: 40px;
 width: 100%; 
 margin: 0 auto;
 height: 498px;
-background-image: url('../../img/hero/hero.webp');
+background-image: url('/img/hero/hero.webp');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
