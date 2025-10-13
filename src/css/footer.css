@@ -1,13 +1,12 @@
 .body-footer {
   background-color: #75d281;
-  color: #000;
+  color: #030a06;
   padding: 48px 20px;
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #030a06;
 }
 
 .footer-container {
@@ -52,18 +51,22 @@
 
 .footer-menu_link {
   text-decoration: none;
-  color: #000;
-  transition: color 0.3s ease;
+  color: #030a06;
 }
 
 .footer-menu_link:active {
   color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
   text-decoration: none;
 }
 
 .footer-icon {
   width: 32px;
   height: 32px;
+}
+
+.footer-icon:active {
+  fill: #3ac04c;
 }
 
 .footer-socials {
@@ -82,7 +85,7 @@
 .footer-icon {
   width: 32px;
   height: 33px;
-  fill: currentColor;
+  fill: #030a06;
 }
 
 .footer-social_link {
@@ -93,7 +96,6 @@
   height: 40px;
   border-radius: 50%;
   color: #030a06;
-  transition: all 0.3s ease;
 }
 
 .footer-social_link:active {
@@ -128,6 +130,7 @@
 
 .footer-phone:active {
   color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
   text-decoration: none;
 }
 
@@ -139,7 +142,13 @@
 
 .footer-email:active {
   color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
   text-decoration: none;
+}
+
+.footer-phone,
+.footer-email {
+  border-bottom: 2px solid transparent;
 }
 
 .footer-copyright {
@@ -230,15 +239,23 @@
     flex-grow: 1;
   }
 
+  .footer-menu_link {
+    transition: color 0.3s ease;
+  }
+
   .footer-menu_link:hover,
   .footer-menu_link:focus {
     color: #030a06;
-    text-decoration: underline;
+    border-bottom: 2px solid #030a06;
   }
 
   .footer-icon {
     width: 24px;
     height: 24px;
+  }
+
+  .footer-social_link {
+    transition: all 0.3s ease;
   }
 
   .footer-social_link:hover,
@@ -252,13 +269,13 @@
   .footer-phone:hover,
   .footer-phone:focus {
     color: #030a06;
-    text-decoration: underline;
+    border-bottom: 2px solid #030a06;
   }
 
   .footer-email:hover,
   .footer-email:focus {
     color: #030a06;
-    text-decoration: underline;
+    border-bottom: 2px solid #030a06;
   }
 
   .footer-contact {
@@ -268,5 +285,144 @@
 
   .footer-copyright {
     text-align: center;
+  }
+}
+
+.modal-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #75d281;
+  color: #030a06;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-menu_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 14px 20px;
+  position: relative;
+}
+
+.modal-logo_icon {
+  width: 84px;
+  height: 36px;
+}
+
+.modal-close_btn {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close_icon {
+  fill: #030a06;
+}
+
+.modal-menu_nav {
+  padding: 32px 16px;
+  width: 100%;
+}
+
+.modal-menu_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.modal-menu_link {
+  text-decoration: none;
+  color: #030a06;
+}
+
+.modal-menu_link:active {
+  color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
+  text-decoration: none;
+}
+
+.modal-menu_contacts {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 16px 0px;
+}
+
+.modal-phone {
+  text-decoration: none;
+  color: #030a06;
+}
+
+.modal-email {
+  text-decoration: none;
+  color: #030a06;
+}
+
+.modal-phone:active {
+  color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
+  text-decoration: none;
+}
+
+.modal-email:active {
+  color: #3ac04c;
+  border-bottom: 2px solid #3ac04c;
+  text-decoration: none;
+}
+
+.modal-phone,
+.modal-email {
+  border-bottom: 2px solid transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-menu_top {
+    padding: 14px 32px;
+  }
+  .modal-close_btn {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+  }
+
+  .modal-menu_nav {
+    padding: 32px;
+  }
+
+  .modal-menu_contacts {
+    margin-top: 0;
+    padding: 32px 32px 0px;
   }
 }
