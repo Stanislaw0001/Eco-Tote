@@ -56,12 +56,6 @@
   transition: color 0.3s ease;
 }
 
-.footer-menu_link:hover,
-.footer-menu_link:focus {
-  color: #030a06;
-  text-decoration: underline;
-}
-
 .footer-menu_link:active {
   color: #3ac04c;
   text-decoration: none;
@@ -102,14 +96,6 @@
   transition: all 0.3s ease;
 }
 
-.footer-social_link:hover,
-.footer-social_link:focus {
-  outline: 2px solid #030a06;
-  outline-offset: 4px;
-  transform: scale(1.05);
-  color: #030a06;
-}
-
 .footer-social_link:active {
   color: #3ac04c;
   outline: 2px solid #3ac04c;
@@ -140,12 +126,6 @@
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.footer-phone:hover,
-.footer-phone:focus {
-  color: #030a06;
-  text-decoration: underline;
-}
-
 .footer-phone:active {
   color: #3ac04c;
   text-decoration: none;
@@ -155,12 +135,6 @@
   text-decoration: none;
   color: #030a06;
   transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.footer-email:hover,
-.footer-email:focus {
-  color: #030a06;
-  text-decoration: underline;
 }
 
 .footer-email:active {
@@ -258,9 +232,35 @@
     gap: 40px;
   }
 
+  .footer-menu_link:hover,
+  .footer-menu_link:focus {
+    color: #030a06;
+    text-decoration: underline;
+  }
+
   .footer-icon {
     width: 24px;
     height: 24px;
+  }
+
+  .footer-social_link:hover,
+  .footer-social_link:focus {
+    outline: 2px solid #030a06;
+    outline-offset: 4px;
+    transform: scale(1.05);
+    color: #030a06;
+  }
+
+  .footer-phone:hover,
+  .footer-phone:focus {
+    color: #030a06;
+    text-decoration: underline;
+  }
+
+  .footer-email:hover,
+  .footer-email:focus {
+    color: #030a06;
+    text-decoration: underline;
   }
 
   .footer-contact {
