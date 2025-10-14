@@ -1,0 +1,212 @@
+/* ==============MOBILE------------------ */
+
+
+@media screen and (min-width: 320px) {
+
+    .feedbacks {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        max-width: 100%;
+    }
+
+    .page-title {
+        width: 100%;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.01em;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .feedback-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+
+    }
+
+    .feedback-text {
+        margin-bottom: 24px;
+    }
+
+
+    /* .feedback-person,
+    .feedback-person:last-child {
+        width: 340px;
+        padding-bottom: 40px;
+    }
+
+    .feedback-person:last-child {
+        padding-bottom: 0;
+    } */
+
+
+    /* star */
+    .stars-img {
+        width: 136px;
+        margin-bottom: 12px;
+
+    }
+
+    .stars-icon {
+        fill: #3ac04c;
+    }
+
+    .star-list {
+        display: flex;
+        gap: 4px;
+
+
+
+
+    }
+
+    /* 
+    .stars-icon-place {
+        width: 24px;
+
+
+
+    }
+
+    .stars-img {
+        margin-bottom: 24px;
+    }
+
+    .feedback-text {
+        margin-bottom: 24px;
+    } */
+
+
+    /* star end */
+
+    .feedback-text {
+        margin-bottom: 12px;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+    }
+
+    .last-text {
+        margin-top: 24px;
+    }
+
+
+
+    .feedback-person-name {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 600;
+        line-height: 1.6;
+
+    }
+
+
+
+}
+
+/* =====================TABLET============================== */
+
+
+
+@media screen and (min-width: 768px) {
+
+    .feedbacks {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .feedback-list {
+        gap: 24px;
+        row-gap: 32px;
+    }
+
+    .feedback-person,
+    .feedback-person:last-child {
+        width: 340px;
+    }
+
+    .stars-img {
+        margin-bottom: 24px;
+    }
+
+    .feedback-text {
+        margin-bottom: 24px;
+    }
+
+}
+
+/* =====================DESKTOP=================*/
+
+@media screen and (min-width: 1440px) {
+
+
+    .page-title {
+        width: 560px;
+        font-size: 48px;
+        margin: 0 auto;
+    }
+
+    .feedback-list {
+        margin-top: 80px;
+    }
+
+    .feedback-person,
+    .feedback-person:last-child {
+        width: 310px;
+
+
+    }
+
+
+
+
+
+
+
+    /* .feedbacks {
+
+            padding: 64px;
+            width: 1440px;
+            height: 506px;
+        }
+
+        .page-title {
+            width: 560px;
+            height: 116px;
+            font-size: 48px;
+
+        }
+
+        .feedback-list {
+            width: 1312px;
+            height: 182px;
+            width: calc((100%-72)/4);
+        }
+
+        .feedback-person,
+        .feedback-person:last-child {
+            width: 310px;
+            height: 182px;
+
+        }
+
+        .feedback-text {
+
+            padding: 24px 0;
+
+        } */
+
+
+
+    .feedback-overlay {
+
+        margin: 0 auto;
+        height: 131px;
+        position: relative;
+    }
+
+    .feedback-person-name {
+        position: absolute;
+        bottom: 0;
+    }
+}
