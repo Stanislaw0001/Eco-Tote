@@ -1,4 +1,19 @@
 /* ==========================================
+   GENERAL STYLES
+   ========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* ==========================================
    HEADER STYLES
    ========================================== */
 
@@ -7,9 +22,6 @@
     width: 100%;
     background-color: #75D281;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
 }
 
 .header-container {
@@ -29,11 +41,11 @@
 .nav {
     display: flex;
     align-items: center;
-    gap: 80px;
 }
 
 .nav-logo {
-    height: 48px;
+    height: 32px;
+    width: 105px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -320,7 +332,7 @@
    RESPONSIVE STYLES - TABLET (768px)
    ========================================== */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
     .nav-list,
     .address {
         display: none;
@@ -346,6 +358,12 @@
 @media screen and (max-width: 320px) {
     .header-container {
         padding: 0 16px;
+    }
+
+    .header {
+        padding: 0px 12px 0px 20px;
+        width: 320px;
+        height: 64px;
     }
 
     .nav-logo {
