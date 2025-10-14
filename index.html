@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" crossorigin href="/Eco-Tote/assets/index-DbfzFgLn.css">
+    <link rel="stylesheet" crossorigin href="/Eco-Tote/assets/index-CeYqhGHq.css">
   </head>
   <body>
     <header class="header">
@@ -527,7 +527,78 @@
 </section>
 
       <section class="support">
-  <div class="container"></div>
+  <div class="container">
+    <div class="support-layout">
+      <div class="support-layout-scnd">
+    <div class="support-content">
+      <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <p class="support-text">Ми тут, щоб допомогти!</p>
+    </div>
+    <form class="support-form">
+      <div class="support-input-content">
+        <label for="name" class="support-text-scnd">Ім'я</label>
+        <input
+          class="support-input"
+          type="text"
+          id="name"
+          name="name"
+          minlength="5"
+          maxlength="64"
+          required
+          placeholder="Іван"
+        />
+        <p class="error-text">Error text</p>
+      </div>
+      <div class="support-input-content">
+        <label for="email" class="support-text-scnd">Електронна пошта</label>
+        <input
+          class="support-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="hello@ecotote.com"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          required
+        />
+        <p class="error-text">Error text</p>
+      </div>
+      <div class="support-input-content">
+        <label for="message" class="support-text-scnd">Повідомлення</label>
+        <textarea
+          class="support-input textarea"
+          id="message"
+          name="message"
+          maxlength="500"
+          placeholder="Введіть своє повідомлення..."
+        ></textarea>
+      </div>
+      <button class="support-btn" type="submit">Надіслати</button>
+      
+    </form>
+    </div>
+    <picture class="img-group">
+      <source
+          media="(min-width: 1440px)"
+          srcset="/Eco-Tote/assets/support-DzyYPvuL.webp 1x, /Eco-Tote/assets/support-2x-DP5h_aRb.webp 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/Eco-Tote/assets/support-tab-Bff-w5gL.webp 1x, /Eco-Tote/assets/support-tab-2x-OdyIBPF8.webp 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/Eco-Tote/assets/support-mob-CeGGlnpZ.webp 1x, /Eco-Tote/assets/support-mob-2x-aUvSCTnv.webp 2x"
+        />
+        <img
+        class="img-wrapper"
+        src="/Eco-Tote/assets/support-mob-CeGGlnpZ.webp"
+        alt="Support"
+        width="288px"
+        height="428px"
+        >
+    </picture>
+    </div>
+  </div>
 </section>
 
     </main>
