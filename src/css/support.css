@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  position: relative;
 }
 
 .support-text-scnd {
@@ -66,7 +67,7 @@
   height: 42px;
   background-color: rgba(3, 10, 6, 0.05);
   outline: none;
-  position: relative;
+  margin-bottom: 12px;
 }
 
 .support-input:not(:placeholder-shown):invalid {
@@ -82,13 +83,17 @@
   display: none;
   font-size: 12px;
   color: #d64040;
+  position: absolute;
+  bottom: 0;
 }
+
 
 .support-input:not(:placeholder-shown):invalid ~ .error-text {
   display: block;
 }
 
 .textarea {
+  resize: none;
   width: 288px;
   height: 180px;
 }
