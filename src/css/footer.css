@@ -245,8 +245,7 @@
 
   .footer-menu_link:hover,
   .footer-menu_link:focus {
-    color: #030a06;
-    border-bottom: 2px solid #030a06;
+    color: #ffffff;
   }
 
   .footer-icon {
@@ -268,14 +267,12 @@
 
   .footer-phone:hover,
   .footer-phone:focus {
-    color: #030a06;
-    border-bottom: 2px solid #030a06;
+    color: #ffffff;
   }
 
   .footer-email:hover,
   .footer-email:focus {
-    color: #030a06;
-    border-bottom: 2px solid #030a06;
+    color: #ffffff;
   }
 
   .footer-contact {

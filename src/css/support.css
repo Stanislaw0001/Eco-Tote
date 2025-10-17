@@ -118,7 +118,7 @@
   border-color: #030a06;
   color: #fff;
   opacity: 0.2;
-  cursor: not-allowed;
+  
 }
 
 .img-wrapper {
@@ -132,7 +132,13 @@
 /* --------------- TABLET ---------------- */
 
 @media only screen and (min-width: 768px) {
-  .support-title {
+
+  .support-layout {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    } 
+  
+    .support-title {
     max-width: 468px;
   }
 
@@ -154,12 +160,10 @@
 
 @media only screen and (min-width: 1440px) {
   .support-layout {
+    padding-top: 64px;
+    padding-bottom: 64px;
     display: flex;
     gap: 24px;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1344px;
   }
 
   .support-form {
@@ -192,6 +196,7 @@
 
   .support-btn {
     width: 198px;
+    margin: 0;
   }
 
   .support-btn:hover,
