@@ -50,25 +50,34 @@
         </form>
       </div>
       <div class="img-wrapper">
-        <img
-          class="img"
-          src="/img/support/support.webp"
-          srcset="/img/support/support.webp 1x, /img/support/support-2x.webp 2x"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            /img/support/support-tab.webp    1x,
-            /img/support/support-tab-2x.webp 2x
-          "
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            /img/support/support-mob.webp    1x,
-            /img/support/support-mob-2x.webp 2x
-          "
-        />
+        <picture>
+          <source
+            srcset="
+              /img/support/support.webp    1x,
+              /img/support/support-2x.webp 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              /img/support/support-tab.webp    1x,
+              /img/support/support-tab-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/support/support-mob.webp    1x,
+              /img/support/support-mob-2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="img"
+            src="/img/support/support.webp"
+            alt="Ілюстрація підтримки клієнтів"
+          />
+        </picture>
       </div>
     </div>
   </div>
